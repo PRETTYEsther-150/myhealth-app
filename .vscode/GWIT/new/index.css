@@ -1,0 +1,110 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.login-page {
+    padding: 50px;
+    font-family: fantasy;
+    background-color: #79d1ee;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 90%;
+    margin: auto;
+    max-height: 900%;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #8fdef8;;
+}
+button {
+    background-color: rgb(33, 44, 165);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 50px;
+}
+.forgot-password {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.sign-up {
+    background: none;
+    border: none;
+    color: red;
+    text-decoration-thickness: from-font;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 50px;
+}
+nav{
+    background-color:#8fdef8;
+    color: white;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    padding: 8px 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 60px;
+}
+nav a:hover {
+    height: fit-content;
+    background-color: white;
+}
+.page-active{
+    display: flex;
+    justify-content: center;
+    font-family: caveat;
+    max-height: 900px;
+}
+p{
+    margin-bottom: 20px;
+}
+.text{
+    margin-top:50px ;
+    font-family: pacifico;
+}
+.page{
+    background-color: #79d1ee;
+    max-height: 900px;
+}
+
